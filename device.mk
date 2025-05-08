@@ -345,6 +345,10 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     qti_telephony_utils_prd.xml \
     telephony-ext
+	
+# Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+    RemovePkgs    
 
 PRODUCT_PACKAGES += \
     xiaomi-telephony-stub
