@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePkgs
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := AdaptiveVPNPrebuilt Aperture AmbientStreaming AiWallpapers AICorePrebuilt BetterBugStub
+LOCAL_OVERRIDES_PACKAGES := AdaptiveVPNPrebuilt AmbientStreaming AiWallpapers AICorePrebuilt BetterBugStub
 LOCAL_OVERRIDES_PACKAGES += CalculatorGooglePrebuilt ExactCalculator CalendarGooglePrebuilt Calendar2 Calendar Chrome Chrome-Stub
 LOCAL_OVERRIDES_PACKAGES += CarrierLocation CarrierMetrics DiagnosticsToolPrebuilt HealthConnectPrebuilt
 LOCAL_OVERRIDES_PACKAGES += Gallery2 GoogleTTS Photos PhotoTable PicoTts PixelLiveWallpaperPrebuilt WallpaperEmojiPrebuilt
