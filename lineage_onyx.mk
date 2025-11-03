@@ -13,6 +13,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from onyx device
 $(call inherit-product, device/xiaomi/onyx/device.mk)
 
+# Evolution-X Build Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_ACCORD := false
+
+# Gapps
+TARGET_USES_MINI_GAPPS := true
+
 PRODUCT_NAME := lineage_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := Xiaomi
